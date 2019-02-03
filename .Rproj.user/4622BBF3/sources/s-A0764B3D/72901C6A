@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549073039745.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "72901C6A",
+    "lastKnownWriteTime" : 1549154482,
+    "last_content_update" : 1549154482066,
+    "path" : "~/DW/PRJ/BLOG/minimal/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "9,56",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

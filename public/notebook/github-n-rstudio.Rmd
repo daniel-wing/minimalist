@@ -1,0 +1,76 @@
+---
+title: "GitHub and RStudio"
+author: "Daniel Wing"
+date: "2019-02-02"
+tags:
+- '101'
+- GitHub
+- RStudio
+---
+
+## Intro
+
+[GitHub](https://github.com) is a super resource that serves many pourposes. I use it to learn from other people's code, but also to store my public projects for free on the cloud (for private repos I use [BitBucket](https://bitbucket.org)). GitHub uses Git, a distributed version control, and it is very powerful to organize your info but also to manage changes and contributions with order instead the natural mess we usually come up with.
+
+Git, but specially the logic behind it, is not only for developers (I am not one) but for everyone looking to have a well orginzed place for their digital products. If you have ever face something like the next escenario, then you can benefit from using Git: ```paper.doc```, ```paper1.doc```, ```paper2.doc```, ```paper-final.doc```, ```paper-final-for-real.doc```, ```paper-final-for-real-comments-from-Dave.doc```, ```paper-new-final.doc```, ```paper-new-final-to-print.doc```, ```paper-print-without-anex.doc```
+
+If you want to learn more about Git or GitHub (or even other distributed version control protocols like Mercurial or svn), you can visit the [Wikipedia](https://en.wikipedia.org/wiki/Git) entry, the [Official Website](https://git-scm.com/) or [this reddit post](https://www.reddit.com/r/git/comments/376z83/what_unusualunconventional_uses_have_you_found/) with some clever uses not releated to software development (some are using it [for law reviews](https://github.com/steeve/france.code-civil)), or this [UGFWIINI (Using Git For What It Is Not Intended)](https://public-inbox.org/git/3f4fd2640903030709r6e585d9j57ad3ae08cf38df1@mail.gmail.com/T/#m2a22bb4134907f7a4dfe8a6c1160e13bac1abf45).
+
+## How to
+
+I do not explain all the commands in detail. If you need extra help feel free to leave a comment or question at the bottom.
+
+Prerequisites: You need RStudio and R installed in your computer, and a GitHub account that is free.
+
+### TL;DR
+
+If you just want it done copy and paste the next into your terminal.
+
+*Usually doing something like this without understanding what you're doing is a stupid idea. I do not encourage this behavior and you should do it only if you understand the commands, but below I explian every command line in detail.*
+
+Configure Git:
+
+```
+git config --global user.name 'daniel-wing'
+git config --global user.email 'daniel.wing@gmail.com'
+git config --global --list
+
+
+echo "# github-n-rstudio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/daniel-wing/github-n-rstudio.git
+git push -u origin master
+```
+
+
+
+
+
+### Step by step
+
+1. Configure your username and password:
+    1. ```git config --global user.name 'Jane Doe'```
+    1. 
+
+
+1. In GitHub
+    1. Create a new repository
+    1. Configure the repository
+1. In your PC
+    1. Open the project you want to push (send, store, save) to GitHub, it can even be a new empty project
+    1. Open a terminal (usually next to the Console) and type: ```git init```, this will initialized an empty Git repository in the whatever path your project iin my case is: ```/Users/danielwing/PRJ/test/.git/```
+    1. Type ```echo "# Testing Git commands" >> README.md``` which basically is telling your PC to create a new file, name it README.md, and write everything between the quotation marks into it.
+
+
+
+
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

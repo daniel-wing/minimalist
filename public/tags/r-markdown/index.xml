@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Markdown on Daniel Wing</title>
+    <link>/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on Daniel Wing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogdown 101</title>
+      <link>/notebook/blogdown101/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/notebook/blogdown101/</guid>
+      <description>Intro I am not an expert on Blogdown nor Hugo, I am merely taking notes to myself and making them public for anyone to read in case they find them useful To go over the basic steps to get started with Blogdown and post a site online for free.
+ Intro Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this.</description>
+    </item>
+    
+    <item>
+      <title>Markdown 101</title>
+      <link>/notebook/markdown101/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/notebook/markdown101/</guid>
+      <description> R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+Cheat sheet Headers are # Text and look like
+  Text âra añadir imagen ![optional caption text](notebook/Markdown1.png) =  </description>
+    </item>
+    
+  </channel>
+</rss>

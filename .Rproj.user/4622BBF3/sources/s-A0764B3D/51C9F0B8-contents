@@ -1,0 +1,24 @@
+---
+title: "Markdown 101"
+author: "Daniel Wing"
+date: '2019-01-29'
+tags:
+- R Markdown
+- Markdown
+- '101'
+- Blogging
+categories:
+- R
+- Hugo
+---
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+## Cheat sheet
+
+Headers are ```# Text``` and look like
+
+# Text
+

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GitHub and RStudio</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: steelblue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.1/styles/nord.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/R.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/Python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/PHP.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/Markdown.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/JSON.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/JavaScript.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/TOML.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/HTTP.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/CSS.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/Ruby.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/XML.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.53" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">GitHub and RStudio</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/notebook/">Notebook</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="https://experience.danielwing.net">Experience</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:danielwing@pm.me"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/daniel-wing/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/username/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/username/"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/notebook/github-n-rstudio/">GitHub and RStudio</a></h4>
+    <h5>February 2, 2019</h5>
+    
+    <a href="/tags/101"><kbd class="item-tag">101</kbd></a>
+    
+    <a href="/tags/github"><kbd class="item-tag">GitHub</kbd></a>
+    
+    <a href="/tags/rstudio"><kbd class="item-tag">RStudio</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+
+<div id="intro" class="section level2">
+<h2>Intro</h2>
+<p><a href="https://github.com">GitHub</a> is a super resource that serves many pourposes. I use it to learn from other people’s code, but also to store my public projects for free on the cloud (for private repos I use <a href="https://bitbucket.org">BitBucket</a>). GitHub uses Git, a distributed version control, and it is very powerful to organize your info but also to manage changes and contributions with order instead the natural mess we usually come up with.</p>
+<p>Git, but specially the logic behind it, is not only for developers (I am not one) but for everyone looking to have a well orginzed place for their digital products. If you have ever face something like the next escenario, then you can benefit from using Git: <code>paper.doc</code>, <code>paper1.doc</code>, <code>paper2.doc</code>, <code>paper-final.doc</code>, <code>paper-final-for-real.doc</code>, <code>paper-final-for-real-comments-from-Dave.doc</code>, <code>paper-new-final.doc</code>, <code>paper-new-final-to-print.doc</code>, <code>paper-print-without-anex.doc</code></p>
+<p>If you want to learn more about Git or GitHub (or even other distributed version control protocols like Mercurial or svn), you can visit the <a href="https://en.wikipedia.org/wiki/Git">Wikipedia</a> entry, the <a href="https://git-scm.com/">Official Website</a> or <a href="https://www.reddit.com/r/git/comments/376z83/what_unusualunconventional_uses_have_you_found/">this reddit post</a> with some clever uses not releated to software development (some are using it <a href="https://github.com/steeve/france.code-civil">for law reviews</a>), or this <a href="https://public-inbox.org/git/3f4fd2640903030709r6e585d9j57ad3ae08cf38df1@mail.gmail.com/T/#m2a22bb4134907f7a4dfe8a6c1160e13bac1abf45">UGFWIINI (Using Git For What It Is Not Intended)</a>.</p>
+</div>
+<div id="how-to" class="section level2">
+<h2>How to</h2>
+<p>I do not explain all the commands in detail. If you need extra help feel free to leave a comment or question at the bottom.</p>
+<p>Prerequisites: You need RStudio and R installed in your computer, and a GitHub account that is free.</p>
+<div id="tldr" class="section level3">
+<h3>TL;DR</h3>
+<p>If you just want it done copy and paste the next into your terminal.</p>
+<p><em>Usually doing something like this without understanding what you’re doing is a stupid idea. I do not encourage this behavior and you should do it only if you understand the commands, but below I explian every command line in detail.</em></p>
+<p>Configure Git:</p>
+<pre><code>git config --global user.name &#39;daniel-wing&#39;
+git config --global user.email &#39;daniel.wing@gmail.com&#39;
+git config --global --list
+
+
+echo &quot;# github-n-rstudio&quot; &gt;&gt; README.md
+git init
+git add README.md
+git commit -m &quot;first commit&quot;
+git remote add origin https://github.com/daniel-wing/github-n-rstudio.git
+git push -u origin master</code></pre>
+</div>
+<div id="step-by-step" class="section level3">
+<h3>Step by step</h3>
+<ol style="list-style-type: decimal">
+<li>Configure your username and password:
+<ol style="list-style-type: decimal">
+<li><code>git config --global user.name 'Jane Doe'</code></li>
+<li></li>
+</ol></li>
+<li>In GitHub
+<ol style="list-style-type: decimal">
+<li>Create a new repository</li>
+<li>Configure the repository</li>
+</ol></li>
+<li>In your PC
+<ol style="list-style-type: decimal">
+<li>Open the project you want to push (send, store, save) to GitHub, it can even be a new empty project</li>
+<li>Open a terminal (usually next to the Console) and type: <code>git init</code>, this will initialized an empty Git repository in the whatever path your project iin my case is: <code>/Users/danielwing/PRJ/test/.git/</code></li>
+<li>Type <code>echo &quot;# Testing Git commands&quot; &gt;&gt; README.md</code> which basically is telling your PC to create a new file, name it README.md, and write everything between the quotation marks into it.</li>
+</ol></li>
+</ol>
+<p><img src="/notebook/github-n-rstudio_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+</div>
+</div>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "danieljwing" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

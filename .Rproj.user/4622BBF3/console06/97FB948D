@@ -1,0 +1,24 @@
+git commit -m "second commit, sending all"
+git-usshsign-notes (http://t.uber.com/git-usshsign-notes) version 0.0.2
+pre-commit started (check-ussh.sh)
+Skipping check for valid ussh certificate for non-code.uber.internal remote URL: https://github.com/daniel-wing/minimalist.git
+pre-commit finished (check-ussh.sh)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.RData[m
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mminimal.Rproj[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ pwd
+/Users/uber/DW/PRJ/BLOG/minimal
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ git add /Users/uber/DW/PRJ/BLOG/minimal

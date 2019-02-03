@@ -1,0 +1,51 @@
+---
+title: "Blogdown 101"
+author: "Daniel Wing"
+date: '2019-01-29'
+tags:
+- R Markdown
+- Markdown
+- '101'
+- Blogging
+- RStudio
+- Hugo
+---
+
+## Intro
+
+I am not an expert on Blogdown nor Hugo, I am merely taking notes to myself and making them public for anyone to read in case they find them useful To go over the basic steps to get started with Blogdown and post a site online for free.
+
+Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this. After this you just need to install the package Blogdown 
+
+```{r}
+install.packages("blogdown",repos = "http://cran.us.r-project.org")
+```
+
+## Overview
+
+Here are the general milestones we will cover:
+
+The difference between creating a skin in ```layouts/``` and creating it in ```themes/``` is very subtle. A skin in ```layouts/``` can’t be customized without updating the templates and static files that it is built from. A skin created in ```themes/```, on the other hand, can be and that makes it easier for other people to use it.
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## Github
+
+To send you file to ![optional caption text](figures/img.png)
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

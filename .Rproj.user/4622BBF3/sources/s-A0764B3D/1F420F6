@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549128349081.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1F420F6",
+    "lastKnownWriteTime" : 1549155585,
+    "last_content_update" : 1549155585881,
+    "path" : "~/DW/PRJ/BLOG/minimal/content/notebook/github-n-rstudio.Rmd",
+    "project_path" : "content/notebook/github-n-rstudio.Rmd",
+    "properties" : {
+        "cursorPosition" : "7,9",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
