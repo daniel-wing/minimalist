@@ -63,6 +63,22 @@
         
 
         
+        
+        <header>
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+          <link rel="icon" type="image/png" sizes="194x194" href="/favicon/favicon-194x194.png">
+          <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+          <link rel="manifest" href="/favicon/site.webmanifest">
+          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+          <link rel="shortcut icon" href="/favicon/favicon.ico">
+          <meta name="apple-mobile-web-app-title" content="Daniel Wing">
+          <meta name="application-name" content="Daniel Wing">
+          <meta name="msapplication-TileColor" content="#2b5797">
+          <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+          <meta name="theme-color" content="#ffffff">
+        </header>
     </head>
 
     
@@ -143,11 +159,11 @@
     <h4><a href="/notebook/blogdown101.knit/">Blogdown 101</a></h4>
     <h5>January 29, 2019</h5>
     
+    <a href="/tags/101"><kbd class="item-tag">101</kbd></a>
+    
     <a href="/tags/r-markdown"><kbd class="item-tag">R Markdown</kbd></a>
     
     <a href="/tags/markdown"><kbd class="item-tag">Markdown</kbd></a>
-    
-    <a href="/tags/101"><kbd class="item-tag">101</kbd></a>
     
     <a href="/tags/blogging"><kbd class="item-tag">Blogging</kbd></a>
     
@@ -165,17 +181,19 @@
 
 <p>I am not an expert on Blogdown nor Hugo, I am merely taking notes to myself and making them public for anyone to read in case they find them useful To go over the basic steps to get started with Blogdown and post a site online for free.</p>
 
-<p>Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this. After this you just need to install the package Blogdown</p>
+<h2 id="intro-1">Intro</h2>
 
-<pre><code class="language-r">install.packages(&quot;blogdown&quot;,repos = &quot;http://cran.us.r-project.org&quot;)
-</code></pre>
+<p>Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this. After this you just need to install the package Blogdown <code>install.packages(&quot;blogdown&quot;)</code></p>
 
-<pre><code>## 
-## The downloaded binary packages are in
-## 	/var/folders/x9/0txyyq1n76vcgqvqtjwnk_rw0000gn/T//RtmpcVCveD/downloaded_packages
-</code></pre>
+<h3 id="intro-2">Intro</h3>
 
-<h2 id="overview">Overview</h2>
+<p>Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this. After this you just need to install the package Blogdown <code>install.packages(&quot;blogdown&quot;)</code></p>
+
+<h4 id="intro-3">Intro</h4>
+
+<p>Prerequisites: You need RStudio and R installed in your computer in a different post I explain how to go over this. After this you just need to install the package Blogdown <code>install.packages(&quot;blogdown&quot;)</code></p>
+
+<h3 id="overview">Overview</h3>
 
 <p>Here are the general milestones we will cover:</p>
 
@@ -186,6 +204,8 @@
 <p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 
 <h2 id="github">Github</h2>
+
+<p>To send you file to <img src="figures/img.png" alt="optional caption text" /></p>
 
 <pre><code class="language-r">summary(cars)
 </code></pre>

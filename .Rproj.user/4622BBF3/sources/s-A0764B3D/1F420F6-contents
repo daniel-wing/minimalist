@@ -2,6 +2,7 @@
 title: "GitHub and RStudio"
 author: "Daniel Wing"
 date: "2019-02-02"
+update: "2019-02-03"
 tags:
 - '101'
 - GitHub
@@ -38,15 +39,16 @@ git config --global --list
 
 echo "# github-n-rstudio" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/daniel-wing/github-n-rstudio.git
+git add /Users/danielwing/PRJ/test
+git commit -m "first commit, uploading everything into GitHub"
+git remote add origin https://github.com/daniel-wing/minimalist
+```
+You will be asked for your GitHub username and password
+
+```
 git push -u origin master
 ```
-
-
-
-
+At this point return to github.com and you will see all of the content of the folder in your PC uploaded to GitHub, if you change a comma you will be able to trace that change.
 
 ### Step by step
 

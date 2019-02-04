@@ -22,3 +22,295 @@ nothing added to commit but untracked files present
 ]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ pwd
 /Users/uber/DW/PRJ/BLOG/minimal
 ]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ git add /Users/uber/DW/PRJ/BLOG/minimal
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ git add /Users/uber/DW/PRJ/BLOG/minimal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kgit commit -m "second commit, sending all"
+git-usshsign-notes (http://t.uber.com/git-usshsign-notes) version 0.0.2
+pre-commit started (check-ussh.sh)
+Skipping check for valid ussh certificate for non-code.uber.internal remote URL: https://github.com/daniel-wing/minimalist.git
+pre-commit finished (check-ussh.sh)
+post-commit started (sign-commit.sh)
+Skipping commit signing for non-code.uber.internal remote URL: https://github.com/daniel-wing/minimalist.git
+post-commit finished (sign-commit.sh)
+[master b8a49ac] second commit, sending all
+ 259 files changed, 24715 insertions(+)
+ create mode 100644 .RData
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/4622BBF3/console06/97FB948D
+ create mode 100644 .Rproj.user/4622BBF3/console06/97FB948D.env
+ create mode 100644 .Rproj.user/4622BBF3/console06/INDEX001
+ create mode 100644 .Rproj.user/4622BBF3/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/4622BBF3/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/4622BBF3/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/4622BBF3/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/4622BBF3/rmd-outputs
+ create mode 100644 .Rproj.user/4622BBF3/saved_source_markers
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/4A1A3FFC
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/4ED4A821
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/65B7A956
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/718A4D71
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/828F4E02
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/A9E38D35
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/B0471F20
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/BC6DC1BB
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/BE28B2C2
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/D0039D74
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/E50AFA9
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/EB05199E
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/F4CC2034
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/F9F32919
+ create mode 100644 .Rproj.user/4622BBF3/sources/prop/INDEX
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/14B8FED4-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/1F420F6
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/1F420F6-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/21C47A76-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/3C614EFB-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/3DB89ED8-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/458FCD9F-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/51C9F0B8-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/53548307-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/651E9BD5-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/72901C6A
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/72901C6A-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/8B9DD73F-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/901CABB9
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/901CABB9-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/92097B96-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/9940866C-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/BFA4EFCC-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/CEE2409-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/F5D35AC7-contents
+ create mode 100644 .Rproj.user/4622BBF3/sources/s-A0764B3D/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/586A8201-github-n-rstudio/1/4622BBF3A0764B3D/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/586A8201-github-n-rstudio/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/823D0C1D-Markdown101/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/4622BBF34D9E421E/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/ch5pq7che0dld/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/ch5pq7che0dld/000003.metadata
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/ch5pq7che0dld/000003.png
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/ch5pq7che0dld/000003.snapshot
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/A72E7F59-blogdown101/1/s/ckc6mwy9jk1vx/000002.csv
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 config.toml
+ create mode 100644 content/notebook/Markdown101.Rmd
+ create mode 100644 content/notebook/Markdown101.html
+ create mode 100644 content/notebook/blogdown101.Rmd
+ create mode 100644 content/notebook/blogdown101.html
+ create mode 100644 content/notebook/creating-a-new-theme.md
+ create mode 100644 content/notebook/github-n-rstudio.Rmd
+ create mode 100644 content/notebook/github-n-rstudio.html
+ create mode 100644 content/notebook/goisforlovers.md
+ create mode 100644 content/notebook/hugoisforlovers.md
+ create mode 100644 content/notebook/migrate-from-jekyll.md
+ create mode 100644 content/pics/Screen Shot 2019-02-02 at 4.28.01 PM.png
+ create mode 100644 content/pics/Screen Shot 2019-02-02 at 4.37.37 PM.png
+ create mode 100644 content/pics/Screen Shot 2019-02-02 at 4.40.28 PM.png
+ create mode 100644 content/pics/Screen Shot 2019-02-02 at 4.45.17 PM.png
+ create mode 100644 content/project/project1.md
+ create mode 100644 content/project/project2.md
+ create mode 100644 content/project/project3.md
+ create mode 100644 content/project/project4.md
+ create mode 100644 index.Rmd
+ create mode 100644 minimal.Rproj
+ create mode 100644 public/404.html
+ create mode 100644 public/categories/hugo/index.html
+ create mode 100644 public/categories/hugo/index.xml
+ create mode 100644 public/categories/hugo/page/1/index.html
+ create mode 100644 public/categories/index.html
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/categories/page/1/index.html
+ create mode 100644 public/categories/r/index.html
+ create mode 100644 public/categories/r/index.xml
+ create mode 100644 public/categories/r/page/1/index.html
+ create mode 100644 public/categories/rstudio/index.html
+ create mode 100644 public/categories/rstudio/index.xml
+ create mode 100644 public/categories/rstudio/page/1/index.html
+ create mode 100644 public/css/main.css
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/notebook/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/notebook/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 public/notebook/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/notebook/Markdown101.Rmd
+ create mode 100644 public/notebook/Markdown101_files/figure-html/pie-1.png
+ create mode 100644 public/notebook/blogdown101.Rmd
+ create mode 100644 public/notebook/blogdown101.knit/index.html
+ create mode 100644 public/notebook/blogdown101.utf8/index.html
+ create mode 100644 public/notebook/blogdown101/index.html
+ create mode 100644 public/notebook/blogdown101_files/figure-html/pressure-1.png
+ create mode 100644 public/notebook/creating-a-new-theme/index.html
+ create mode 100644 public/notebook/github-n-rstudio.Rmd
+ create mode 100644 public/notebook/github-n-rstudio/index.html
+ create mode 100644 public/notebook/github-n-rstudio_files/figure-html/pressure-1.png
+ create mode 100644 public/notebook/goisforlovers/index.html
+ create mode 100644 public/notebook/hugoisforlovers/index.html
+ create mode 100644 public/notebook/index.html
+ create mode 100644 public/notebook/index.xml
+ create mode 100644 public/notebook/markdown101/index.html
+ create mode 100644 public/notebook/migrate-from-jekyll/index.html
+ create mode 100644 public/notebook/page/1/index.html
+ create mode 100644 public/notebook/page/2/index.html
+ create mode 100644 public/pics/Screen Shot 2019-02-02 at 4.28.01 PM.png
+ create mode 100644 public/pics/Screen Shot 2019-02-02 at 4.37.37 PM.png
+ create mode 100644 public/pics/Screen Shot 2019-02-02 at 4.40.28 PM.png
+ create mode 100644 public/pics/Screen Shot 2019-02-02 at 4.45.17 PM.png
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/post/blogdown101.Rmd
+ create mode 100644 public/post/blogdown101/index.html
+ create mode 100644 public/post/blogdown101_files/figure-html/pressure-1.png
+ create mode 100644 public/post/creating-a-new-theme/index.html
+ create mode 100644 public/post/goisforlovers/index.html
+ create mode 100644 public/post/hugoisforlovers/index.html
+ create mode 100644 public/post/index.html
+ create mode 100644 public/post/index.xml
+ create mode 100644 public/post/migrate-from-jekyll/index.html
+ create mode 100644 public/post/page/1/index.html
+ create mode 100644 public/post/page/2/index.html
+ create mode 100644 public/project/index.html
+ create mode 100644 public/project/index.xml
+ create mode 100644 public/project/page/1/index.html
+ create mode 100644 public/project/project1/index.html
+ create mode 100644 public/project/project2/index.html
+ create mode 100644 public/project/project3/index.html
+ create mode 100644 public/project/project4/index.html
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/101/index.html
+ create mode 100644 public/tags/101/index.xml
+ create mode 100644 public/tags/101/page/1/index.html
+ create mode 100644 public/tags/blogging/index.html
+ create mode 100644 public/tags/blogging/index.xml
+ create mode 100644 public/tags/blogging/page/1/index.html
+ create mode 100644 public/tags/bootstrap/index.html
+ create mode 100644 public/tags/bootstrap/index.xml
+ create mode 100644 public/tags/bootstrap/page/1/index.html
+ create mode 100644 public/tags/css/index.html
+ create mode 100644 public/tags/css/index.xml
+ create mode 100644 public/tags/css/page/1/index.html
+ create mode 100644 public/tags/development/index.html
+ create mode 100644 public/tags/development/index.xml
+ create mode 100644 public/tags/development/page/1/index.html
+ create mode 100644 public/tags/github/index.html
+ create mode 100644 public/tags/github/index.xml
+ create mode 100644 public/tags/github/page/1/index.html
+ create mode 100644 public/tags/go/index.html
+ create mode 100644 public/tags/go/index.xml
+ create mode 100644 public/tags/go/page/1/index.html
+ create mode 100644 public/tags/golang/index.html
+ create mode 100644 public/tags/golang/index.xml
+ create mode 100644 public/tags/golang/page/1/index.html
+ create mode 100644 public/tags/highlight-js/index.html
+ create mode 100644 public/tags/highlight-js/index.xml
+ create mode 100644 public/tags/highlight-js/page/1/index.html
+ create mode 100644 public/tags/html/index.html
+ create mode 100644 public/tags/html/index.xml
+ create mode 100644 public/tags/html/page/1/index.html
+ create mode 100644 public/tags/hugo/index.html
+ create mode 100644 public/tags/hugo/index.xml
+ create mode 100644 public/tags/hugo/page/1/index.html
+ create mode 100644 public/tags/hugo/page/2/index.html
+ create mode 100644 public/tags/index.html
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/jekyll/index.html
+ create mode 100644 public/tags/jekyll/index.xml
+ create mode 100644 public/tags/jekyll/page/1/index.html
+ create mode 100644 public/tags/js/index.html
+ create mode 100644 public/tags/js/index.xml
+ create mode 100644 public/tags/js/page/1/index.html
+ create mode 100644 public/tags/markdown/index.html
+ create mode 100644 public/tags/markdown/index.xml
+ create mode 100644 public/tags/markdown/page/1/index.html
+ create mode 100644 public/tags/page/1/index.html
+ create mode 100644 public/tags/page/2/index.html
+ create mode 100644 public/tags/page/3/index.html
+ create mode 100644 public/tags/page/4/index.html
+ create mode 100644 public/tags/page/5/index.html
+ create mode 100644 public/tags/plot/index.html
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/plot/page/1/index.html
+ create mode 100644 public/tags/r-markdown/index.html
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/r-markdown/page/1/index.html
+ create mode 100644 public/tags/regression/index.html
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 public/tags/regression/page/1/index.html
+ create mode 100644 public/tags/responsive/index.html
+ create mode 100644 public/tags/responsive/index.xml
+ create mode 100644 public/tags/responsive/page/1/index.html
+ create mode 100644 public/tags/rstudio/index.html
+ create mode 100644 public/tags/rstudio/index.xml
+ create mode 100644 public/tags/rstudio/page/1/index.html
+ create mode 100644 public/tags/static-site-generator/index.html
+ create mode 100644 public/tags/static-site-generator/index.xml
+ create mode 100644 public/tags/static-site-generator/page/1/index.html
+ create mode 100644 public/tags/syntax-highlighting/index.html
+ create mode 100644 public/tags/syntax-highlighting/index.xml
+ create mode 100644 public/tags/syntax-highlighting/page/1/index.html
+ create mode 100644 public/tags/template/index.html
+ create mode 100644 public/tags/template/index.xml
+ create mode 100644 public/tags/template/page/1/index.html
+ create mode 100644 public/tags/themes/index.html
+ create mode 100644 public/tags/themes/index.xml
+ create mode 100644 public/tags/themes/page/1/index.html
+ create mode 100644 static/notebook/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 static/notebook/Markdown101_files/figure-html/pie-1.png
+ create mode 100644 static/notebook/blogdown101_files/figure-html/pressure-1.png
+ create mode 100644 static/notebook/github-n-rstudio_files/figure-html/pressure-1.png
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 static/post/blogdown101_files/figure-html/pressure-1.png
+ create mode 100644 themes/minimal/.gitignore
+ create mode 100644 themes/minimal/LICENSE.md
+ create mode 100644 themes/minimal/README.md
+ create mode 100644 themes/minimal/archetypes/default.md
+ create mode 100644 themes/minimal/archetypes/post.md
+ create mode 100644 themes/minimal/archetypes/project.md
+ create mode 100644 themes/minimal/exampleSite/config.toml
+ create mode 100644 themes/minimal/exampleSite/content/post/creating-a-new-theme.md
+ create mode 100644 themes/minimal/exampleSite/content/post/goisforlovers.md
+ create mode 100644 themes/minimal/exampleSite/content/post/hugoisforlovers.md
+ create mode 100644 themes/minimal/exampleSite/content/post/migrate-from-jekyll.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project1.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project2.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project3.md
+ create mode 100644 themes/minimal/exampleSite/content/project/project4.md
+ create mode 100644 themes/minimal/images/screenshot.png
+ create mode 100644 themes/minimal/images/tn.png
+ create mode 100644 themes/minimal/layouts/404.html
+ create mode 100644 themes/minimal/layouts/_default/list.html
+ create mode 100644 themes/minimal/layouts/_default/single.html
+ create mode 100644 themes/minimal/layouts/_default/terms.html
+ create mode 100644 themes/minimal/layouts/index.html
+ create mode 100644 themes/minimal/layouts/partials/body-open.html
+ create mode 100644 themes/minimal/layouts/partials/css.html
+ create mode 100644 themes/minimal/layouts/partials/footer.html
+ create mode 100644 themes/minimal/layouts/partials/head-open.html
+ create mode 100644 themes/minimal/layouts/partials/header.html
+ create mode 100644 themes/minimal/layouts/partials/js.html
+ create mode 100644 themes/minimal/layouts/partials/list-item.html
+ create mode 100644 themes/minimal/layouts/partials/paginator.html
+ create mode 100644 themes/minimal/static/css/main.css
+ create mode 100644 themes/minimal/theme.toml
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ git push -u origin master
+git-usshsign-notes (http://t.uber.com/git-usshsign-notes) version 0.0.2
+pre-push started (push-signatures.sh)
+Skipping pushing of signatures for non-code.uber.internal remote URL: https://github.com/daniel-wing/minimalist.git
+pre-push finished (push-signatures.sh)
+Enumerating objects: 390, done.
+Counting objects:   0% (1/390)   Counting objects:   1% (4/390)   Counting objects:   2% (8/390)   Counting objects:   3% (12/390)   Counting objects:   4% (16/390)   Counting objects:   5% (20/390)   Counting objects:   6% (24/390)   Counting objects:   7% (28/390)   Counting objects:   8% (32/390)   Counting objects:   9% (36/390)   Counting objects:  10% (39/390)   Counting objects:  11% (43/390)   Counting objects:  12% (47/390)   Counting objects:  13% (51/390)   Counting objects:  14% (55/390)   Counting objects:  15% (59/390)   Counting objects:  16% (63/390)   Counting objects:  17% (67/390)   Counting objects:  18% (71/390)   Counting objects:  19% (75/390)   Counting objects:  20% (78/390)   Counting objects:  21% (82/390)   Counting objects:  22% (86/390)   Counting objects:  23% (90/390)   Counting objects:  24% (94/390)   Counting objects:  25% (98/390)   Counting objects:  26% (102/390)   Counting objects:  27% (106/390)   Counting objects:  28% (110/390)   Counting objects:  29% (114/390)   Counting objects:  30% (117/390)   Counting objects:  31% (121/390)   Counting objects:  32% (125/390)   Counting objects:  33% (129/390)   Counting objects:  34% (133/390)   Counting objects:  35% (137/390)   Counting objects:  36% (141/390)   Counting objects:  37% (145/390)   Counting objects:  38% (149/390)   Counting objects:  39% (153/390)   Counting objects:  40% (156/390)   Counting objects:  41% (160/390)   Counting objects:  42% (164/390)   Counting objects:  43% (168/390)   Counting objects:  44% (172/390)   Counting objects:  45% (176/390)   Counting objects:  46% (180/390)   Counting objects:  47% (184/390)   Counting objects:  48% (188/390)   Counting objects:  49% (192/390)   Counting objects:  50% (195/390)   Counting objects:  51% (199/390)   Counting objects:  52% (203/390)   Counting objects:  53% (207/390)   Counting objects:  54% (211/390)   Counting objects:  55% (215/390)   Counting objects:  56% (219/390)   Counting objects:  57% (223/390)   Counting objects:  58% (227/390)   Counting objects:  59% (231/390)   Counting objects:  60% (234/390)   Counting objects:  61% (238/390)   Counting objects:  62% (242/390)   Counting objects:  63% (246/390)   Counting objects:  64% (250/390)   Counting objects:  65% (254/390)   Counting objects:  66% (258/390)   Counting objects:  67% (262/390)   Counting objects:  68% (266/390)   Counting objects:  69% (270/390)   Counting objects:  70% (273/390)   Counting objects:  71% (277/390)   Counting objects:  72% (281/390)   Counting objects:  73% (285/390)   Counting objects:  74% (289/390)   Counting objects:  75% (293/390)   Counting objects:  76% (297/390)   Counting objects:  77% (301/390)   Counting objects:  78% (305/390)   Counting objects:  79% (309/390)   Counting objects:  80% (312/390)   Counting objects:  81% (316/390)   Counting objects:  82% (320/390)   Counting objects:  83% (324/390)   Counting objects:  84% (328/390)   Counting objects:  85% (332/390)   Counting objects:  86% (336/390)   Counting objects:  87% (340/390)   Counting objects:  88% (344/390)   Counting objects:  89% (348/390)   Counting objects:  90% (351/390)   Counting objects:  91% (355/390)   Counting objects:  92% (359/390)   Counting objects:  93% (363/390)   Counting objects:  94% (367/390)   Counting objects:  95% (371/390)   Counting objects:  96% (375/390)   Counting objects:  97% (379/390)   Counting objects:  98% (383/390)   Counting objects:  99% (387/390)   Counting objects: 100% (390/390)   Counting objects: 100% (390/390), done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/281)   Compressing objects:   1% (3/281)   Compressing objects:   2% (6/281)   Compressing objects:   3% (9/281)   Compressing objects:   4% (12/281)   Compressing objects:   5% (15/281)   Compressing objects:   6% (17/281)   Compressing objects:   7% (20/281)   Compressing objects:   8% (23/281)   Compressing objects:   9% (26/281)   Compressing objects:  10% (29/281)   Compressing objects:  11% (31/281)   Compressing objects:  12% (34/281)   Compressing objects:  13% (37/281)   Compressing objects:  14% (40/281)   Compressing objects:  15% (43/281)   Compressing objects:  16% (45/281)   Compressing objects:  17% (48/281)   Compressing objects:  18% (51/281)   Compressing objects:  19% (54/281)   Compressing objects:  20% (57/281)   Compressing objects:  21% (60/281)   Compressing objects:  22% (62/281)   Compressing objects:  23% (65/281)   Compressing objects:  24% (68/281)   Compressing objects:  25% (71/281)   Compressing objects:  26% (74/281)   Compressing objects:  27% (76/281)   Compressing objects:  28% (79/281)   Compressing objects:  29% (82/281)   Compressing objects:  30% (85/281)   Compressing objects:  31% (88/281)   Compressing objects:  32% (90/281)   Compressing objects:  33% (93/281)   Compressing objects:  34% (96/281)   Compressing objects:  35% (99/281)   Compressing objects:  36% (102/281)   Compressing objects:  37% (104/281)   Compressing objects:  38% (107/281)   Compressing objects:  39% (110/281)   Compressing objects:  40% (113/281)   Compressing objects:  41% (116/281)   Compressing objects:  42% (119/281)   Compressing objects:  43% (121/281)   Compressing objects:  44% (124/281)   Compressing objects:  45% (127/281)   Compressing objects:  46% (130/281)   Compressing objects:  47% (133/281)   Compressing objects:  48% (135/281)   Compressing objects:  49% (138/281)   Compressing objects:  50% (141/281)   Compressing objects:  51% (144/281)   Compressing objects:  52% (147/281)   Compressing objects:  53% (149/281)   Compressing objects:  54% (152/281)   Compressing objects:  55% (155/281)   Compressing objects:  56% (158/281)   Compressing objects:  57% (161/281)   Compressing objects:  58% (163/281)   Compressing objects:  59% (166/281)   Compressing objects:  60% (169/281)   Compressing objects:  61% (172/281)   Compressing objects:  62% (175/281)   Compressing objects:  63% (178/281)   Compressing objects:  64% (180/281)   Compressing objects:  65% (183/281)   Compressing objects:  66% (186/281)   Compressing objects:  67% (189/281)   Compressing objects:  68% (192/281)   Compressing objects:  69% (194/281)   Compressing objects:  70% (197/281)   Compressing objects:  71% (200/281)   Compressing objects:  72% (203/281)   Compressing objects:  73% (206/281)   Compressing objects:  74% (208/281)   Compressing objects:  75% (211/281)   Compressing objects:  76% (214/281)   Compressing objects:  77% (217/281)   Compressing objects:  78% (220/281)   Compressing objects:  79% (222/281)   Compressing objects:  80% (225/281)   Compressing objects:  81% (228/281)   Compressing objects:  82% (231/281)   Compressing objects:  83% (234/281)   Compressing objects:  84% (237/281)   Compressing objects:  85% (239/281)   Compressing objects:  86% (242/281)   Compressing objects:  87% (245/281)   Compressing objects:  88% (248/281)   Compressing objects:  89% (251/281)   Compressing objects:  90% (253/281)   Compressing objects:  91% (256/281)   Compressing objects:  92% (259/281)   Compressing objects:  93% (262/281)   Compressing objects:  94% (265/281)   Compressing objects:  95% (267/281)   Compressing objects:  96% (270/281)   Compressing objects:  97% (273/281)   Compressing objects:  98% (276/281)   Compressing objects:  99% (279/281)   Compressing objects: 100% (281/281)   Compressing objects: 100% (281/281), done.
+Writing objects:   0% (1/389)   Writing objects:   1% (4/389)   Writing objects:   2% (8/389)   Writing objects:   3% (12/389)   Writing objects:   4% (16/389)   Writing objects:   5% (20/389)   Writing objects:   6% (24/389)   Writing objects:   7% (28/389)   Writing objects:   8% (32/389)   Writing objects:   9% (36/389)   Writing objects:  10% (40/389)   Writing objects:  11% (43/389)   Writing objects:  12% (47/389)   Writing objects:  13% (51/389)   Writing objects:  14% (55/389)   Writing objects:  15% (59/389)   Writing objects:  16% (64/389)   Writing objects:  17% (67/389)   Writing objects:  18% (71/389)   Writing objects:  19% (74/389)   Writing objects:  20% (78/389)   Writing objects:  21% (83/389)   Writing objects:  22% (86/389)   Writing objects:  22% (87/389), 1.07 MiB | 414.00 KiB/s   Writing objects:  22% (87/389), 1.19 MiB | 372.00 KiB/s   Writing objects:  22% (87/389), 1.44 MiB | 328.00 KiB/s   Writing objects:  22% (87/389), 1.56 MiB | 318.00 KiB/s   Writing objects:  22% (88/389), 1.75 MiB | 283.00 KiB/s   Writing objects:  22% (88/389), 1.87 MiB | 273.00 KiB/s   Writing objects:  22% (88/389), 2.13 MiB | 177.00 KiB/s   Writing objects:  22% (88/389), 2.19 MiB | 170.00 KiB/s   Writing objects:  22% (88/389), 2.31 MiB | 165.00 KiB/s   Writing objects:  22% (89/389), 2.56 MiB | 154.00 KiB/s   Writing objects:  22% (89/389), 2.63 MiB | 151.00 KiB/s   Writing objects:  22% (89/389), 2.81 MiB | 162.00 KiB/s   Writing objects:  23% (90/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  24% (94/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  25% (98/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  26% (103/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  27% (106/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  28% (110/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  29% (113/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  30% (117/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  31% (122/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  32% (125/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  33% (129/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  34% (133/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  35% (137/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  36% (141/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  37% (144/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  38% (148/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  39% (152/389), 2.94 MiB | 160.00 KiB/s   Writing objects:  40% (156/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  41% (160/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  42% (164/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  43% (168/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  44% (172/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  45% (176/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  46% (179/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  47% (183/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  48% (187/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  49% (191/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  50% (195/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  51% (199/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  52% (203/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  53% (207/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  54% (211/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  55% (214/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  56% (218/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  57% (223/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  58% (226/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  59% (230/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  60% (234/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  61% (238/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  62% (242/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  63% (246/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  64% (249/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  65% (253/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  66% (257/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  67% (261/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  68% (265/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  69% (269/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  70% (273/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  71% (277/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  72% (281/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  73% (284/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  74% (288/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  75% (292/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  76% (296/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  77% (300/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  78% (304/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  79% (308/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  80% (312/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  81% (316/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  82% (319/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  83% (323/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  84% (327/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  85% (331/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  86% (335/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  87% (339/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  88% (343/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  89% (347/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  90% (351/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  91% (354/389), 3.06 MiB | 164.00 KiB/s   Writing objects:  92% (359/389), 3.14 MiB | 166.00 KiB/s   Writing objects:  93% (362/389), 3.14 MiB | 166.00 KiB/s   Writing objects:  94% (366/389), 3.14 MiB | 166.00 KiB/s   Writing objects:  95% (370/389), 3.14 MiB | 166.00 KiB/s   Writing objects:  96% (374/389), 3.25 MiB | 169.00 KiB/s   Writing objects:  97% (378/389), 3.25 MiB | 169.00 KiB/s   Writing objects:  98% (382/389), 3.25 MiB | 169.00 KiB/s   Writing objects:  99% (386/389), 3.25 MiB | 169.00 KiB/s   Writing objects: 100% (389/389), 3.25 MiB | 169.00 KiB/s   Writing objects: 100% (389/389), 3.26 MiB | 212.00 KiB/s, done.
+Total 389 (delta 127), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/127)   [Kremote: Resolving deltas:   1% (2/127)   [Kremote: Resolving deltas:   3% (5/127)   [Kremote: Resolving deltas:   4% (6/127)   [Kremote: Resolving deltas:   5% (7/127)   [Kremote: Resolving deltas:  10% (13/127)   [Kremote: Resolving deltas:  11% (14/127)   [Kremote: Resolving deltas:  12% (16/127)   [Kremote: Resolving deltas:  30% (39/127)   [Kremote: Resolving deltas:  34% (44/127)   [Kremote: Resolving deltas:  58% (74/127)   [Kremote: Resolving deltas:  69% (88/127)   [Kremote: Resolving deltas:  74% (95/127)   [Kremote: Resolving deltas:  82% (105/127)   [Kremote: Resolving deltas:  83% (106/127)   [Kremote: Resolving deltas:  92% (117/127)   [Kremote: Resolving deltas:  93% (119/127)   [Kremote: Resolving deltas:  98% (125/127)   [Kremote: Resolving deltas:  99% (126/127)   [Kremote: Resolving deltas: 100% (127/127)   [Kremote: Resolving deltas: 100% (127/127), done.[K
+To https://github.com/daniel-wing/minimalist.git
+   ba5604e..b8a49ac  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ hugo version
+bash: hugo: command not found
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ 
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ hugo version [flags]
+bash: hugo: command not found
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ hugo version
+bash: hugo: command not found
+]0;~/DW/PRJ/BLOG/minimaldaniel:minimal uber$ [Kdaniel:minimal uber$ hugo version [flags][Kgit push -u origin mastercommit -m "second commit, sending all"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Padd /Users/uber/DW/PRJ/BLOG/minimal[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "second commit, sending all"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Ppush -u origin master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Phugo versiongit push -u origin mastercommit -m "second commit, sending all"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Padd /Users/uber/DW/PRJ/BLOG/minimal
