@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Daniel Wing"
 theme = "minimal"
-# disqusShortname = "danieljwing" # delete this to disable disqus comments
+disqusShortname = "danieljwing" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
