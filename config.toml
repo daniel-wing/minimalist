@@ -1,14 +1,14 @@
-baseURL = "https://www.danielwing.net/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Daniel Wing"
 theme = "minimal"
-disqusShortname = "danieljwing" # delete this to disable disqus comments
+# disqusShortname = "danieljwing" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Daniel Wing"
-    description = "My public learning notebook.  Tambien"
-    githubUsername = "#"
+    description = "My public learning notebook"
+    githubUsername = "daniel-wing"
     accent = "steelblue"
     showBorder = true
     backgroundColor = "white"
